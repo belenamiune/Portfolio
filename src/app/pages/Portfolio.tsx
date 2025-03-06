@@ -1,13 +1,13 @@
 import { useState } from "react";
-import { FaCode, FaAward, FaTools, FaExternalLinkAlt } from "react-icons/fa";
+import { FaCode, FaAward, FaTools } from "react-icons/fa";
 import Image from "next/image";
 import Experiences from "../components/Experiences";
 
 const Portfolio = () => {
-  const [activeTab, setActiveTab] = useState("projects");
+  const [activeTab, setActiveTab] = useState("experience");
 
   const tabs = [
-    { id: "projects", label: "Projects", icon: <FaCode /> },
+    // { id: "projects", label: "Projects", icon: <FaCode /> },
     { id: "experience", label: "Experience", icon: <FaAward /> },
     { id: "techStack", label: "Tech Stack", icon: <FaTools /> },
   ];
@@ -48,9 +48,9 @@ export default Portfolio;
 
 const Projects = () => {
   const projects = [
-    { title: "Aritmatika Solver", description: "Automated arithmetic problem solver.", demo: "#", image: "/project1.png" },
-    { title: "AutoChat-Discord", description: "Automated Discord message sender.", demo: "#", image: "/project2.png" },
-    { title: "Buku Catatan", description: "A simple note-taking web app.", demo: "#", image: "/project3.png" },
+    { title: "TO-DO List", description: "Automated arithmetic problem solver.", demo: "#", image: "/project1.png" },
+    { title: "Login App", description: "Automated Discord message sender.", demo: "#", image: "/project2.png" },
+    { title: "Fitness App", description: "A simple note-taking web app.", demo: "#", image: "/project3.png" },
   ];
 
   return (
@@ -61,7 +61,6 @@ const Projects = () => {
           <h3 className="text-lg md:text-xl font-bold mt-4">{project.title}</h3>
           <p className="text-gray-400 text-sm md:text-base">{project.description}</p>
           <a href={project.demo} className="text-purple-400 mt-2 flex items-center gap-2">
-            Live Demo <FaExternalLinkAlt />
           </a>
         </div>
       ))}

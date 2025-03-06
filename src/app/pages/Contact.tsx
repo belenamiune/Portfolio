@@ -106,7 +106,7 @@ const Contact = () => {
               disabled={loading}
               className="bg-wedgewood-500 hover:bg-wedgewood-600 text-white py-2 px-4 rounded-lg font-semibold transition"
             >
-              {loading ? "Enviando..." : "Enviar"}
+              {loading ? "Sending..." : "Send"}
             </button>
             {success && <p className="text-green-500">Message sent successfully!</p>}
           </form>
@@ -115,7 +115,7 @@ const Contact = () => {
 
       {/* Footer */}
       <footer className="mt-16 text-center text-wedgewood-600 border-t border-gray-700 pt-6 pb-6">
-        <p>© {new Date().getFullYear()} Maria Belén Amiune. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Maria Belen Amiune. All rights reserved.</p>
       </footer>
     </section>
   );

@@ -25,14 +25,14 @@ export default function About() {
 
         {/* Texto */}
         <div className="md:order-1">
-          <h2 className="text-wedgewood-400 text-base sm:text-lg font-semibold flex items-center justify-center md:justify-start gap-2">
-            ✨ Transforming ideas into digital experiences ✨
+          <h2 className="text-wedgewood-400 text-base sm:text-md font-semibold flex items-center justify-center md:justify-start gap-2">
+          ✨ Shaping ideas into interactive and meaningful digital solutions. ✨
           </h2>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-2 text-wedgewood-900">
             Hello, I{"'"}m <span className="text-wedgewood-400">Belen Amiune</span>
           </h1>
           <p className="text-wedgewood-600 mt-4 text-sm sm:text-base">
-            Soy un desarrollador Front-End apasionado por la creación de experiencias digitales atractivas. Siempre me esfuerzo por ofrecer las mejores soluciones en cada proyecto.
+          Front-End Developer passionate about creating engaging, functional and intuitive digital experiences. Currently expanding my knowledge in Full-Stack development to offer more complete and integrated solutions. I specialize in transforming ideas into efficient interfaces, always looking for the best solution for each project.
           </p>
           
           {/* Botones */}
@@ -43,12 +43,12 @@ export default function About() {
             >
               <FaDownload /> Download CV
             </button>
-            <a 
+            {/* <a 
               href="#portfolio" 
               className="border border-wedgewood-500 text-wedgewood-400 hover:bg-wedgewood-500 hover:text-white font-bold py-2 px-6 rounded flex items-center gap-2 transition-all"
             >
               <FaCode /> View Projects
-            </a>
+            </a> */}
           </div>
         </div>
 

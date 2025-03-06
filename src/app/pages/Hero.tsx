@@ -40,18 +40,18 @@ export default function Hero() {
           </motion.h2>
 
           <p className="text-wedgewood-400 mt-4 max-w-md mx-auto lg:mx-0">
-            Creando experiencias digitales innovadoras y funcionales para usuarios.
+          Designing and developing intuitive and engaging digital experiences. 
           </p>
 
           {/* Botones */}
           <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center lg:justify-start">
-            <motion.a
+            {/* <motion.a
               href="#portfolio"
               className="px-6 py-3 bg-white border border-gray-600 text-wedgewood-900 rounded-lg shadow-md hover:bg-wedgewood-200 transition-all"
               whileHover={{ scale: 1.05 }}
             >
               Projects
-            </motion.a>
+            </motion.a> */}
             <motion.a
               href="#contact"
               className="px-6 py-3 bg-wedgewood-900 border border-wedgewood-500 text-white rounded-lg shadow-md hover:bg-wedgewood-600 transition-all"

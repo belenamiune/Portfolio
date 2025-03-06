@@ -18,14 +18,14 @@ export async function POST(req: Request) {
       to: process.env.EMAIL_USER,
       subject: `Nuevo mensaje de ${name}`,
       text: message,
-      html: `<p><strong>Nombre:</strong> ${name}</p>
+      html: `<p><strong>Name:</strong> ${name}</p>
              <p><strong>Email:</strong> ${email}</p>
-             <p><strong>Mensaje:</strong> ${message}</p>`,
+             <p><strong>Message:</strong> ${message}</p>`,
     });
 
-    return NextResponse.json({ message: "Correo enviado exitosamente" }, { status: 200 });
+    return NextResponse.json({ message: "Mail sent successfully" }, { status: 200 });
   } catch (error) {
     console.error(error);
-    return NextResponse.json({ message: "Error al enviar el correo" }, { status: 500 });
+    return NextResponse.json({ message: "Error sending email" }, { status: 500 });
   }
 }

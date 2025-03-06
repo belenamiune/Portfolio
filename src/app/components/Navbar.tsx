@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full bg-wedgewood-800 text-md text-wedgewood-100 font-semibold p-4 flex justify-between items-center z-50">
       
       {/* Logo o Título */}
-      <a href="#home" className="text-lg font-bold text-wedgewood-100">MyPortfolio</a>
+      <a href="#home" className="text-lg font-bold text-wedgewood-100">My Portfolio</a>
 
       {/* Botón Hamburguesa en móviles */}
       <button className="lg:hidden text-wedgewood-100 text-2xl" onClick={() => setIsOpen(!isOpen)}>
