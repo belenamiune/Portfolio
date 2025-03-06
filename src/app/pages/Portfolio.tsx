@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
 import { useState } from "react";
 import {  FaAward, FaTools } from "react-icons/fa";
 import Image from "next/image";
