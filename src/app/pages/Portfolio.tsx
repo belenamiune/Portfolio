@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
-import { FaCode, FaAward, FaTools } from "react-icons/fa";
+import {  FaAward, FaTools } from "react-icons/fa";
 import Image from "next/image";
 import Experiences from "../components/Experiences";
 

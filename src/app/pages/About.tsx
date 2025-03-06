@@ -1,4 +1,4 @@
-import { FaCode, FaDownload } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import avatar from "../../../public/avatar.jpg";
 import Image from "next/image";
 
