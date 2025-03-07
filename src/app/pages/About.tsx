@@ -1,5 +1,5 @@
 import { FaDownload } from "react-icons/fa";
-import avatar from "../../../public/avatar.jpg";
+import avatar from "../../../public/maria_belen_amiune_profile.jpg";
 import Image from "next/image";
 
 export default function About() {
