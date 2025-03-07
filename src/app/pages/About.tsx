@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function About() {
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/cv.pdf";
+    link.href = "/cv/CV_Belen_Amiune.pdf";
     link.download = "Maria_Belen_Amiune_CV.pdf";
     document.body.appendChild(link);
     link.click();

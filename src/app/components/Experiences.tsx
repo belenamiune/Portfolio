@@ -1,12 +1,12 @@
 const experiences = [
   {
-    year: "2022 - Current",
+    year: "2021 - Current",
     company: "GlobalLogic",
     position: "Frontend Developer (Lytx Project)",
     description: "Develop web applications from scratch and provide technical support, fixing bugs and optimizing functionalities. Contribute to system migration to the cloud, ensuring scalability and efficiency.",
   },
   {
-    year: "2021 - 2022",
+    year: "2020 - 2021",
     company: "Ascentio Technologies",
     position: "UX/UI Designer & Frontend Developer",
     description: "Designed and built from scratch an application that visualizes satellite data from various missions. Combined user-centered design with frontend development to create an intuitive and informative experience.",
